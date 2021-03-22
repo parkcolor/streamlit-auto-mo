@@ -5,6 +5,9 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 from information import information
+from corporations import corporation
+from growth import gv
+import webbrowser
 
 
 
@@ -22,6 +25,8 @@ def main():
         information()
     if choice == 'Corporations' :
         corporation()
+    if choice == 'Growth value':
+        gv()
 # 자율주행에 대한 기본적인 정보제공
 
 # 자율주행을 현재 개발중인 국내회사 홈페이지 연동
