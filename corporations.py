@@ -25,7 +25,7 @@ def corporation():
         url1 = 'https://motional.com/'
         st.write('- 현대자동차 협력사 : Motional')
         if st.button('홈페이지 바로가기'):
-            webbrowser.open('https://motional.com/')
+            webbrowser.open('https://motional.com/',new=1)
     if choice == '카카오모빌리티':
         st.image('kko.png',width=None)
         st.subheader('카카오모빌리티')
