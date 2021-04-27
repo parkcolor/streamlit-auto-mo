@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 from information import information
 from corporations import corporation
+from sdcfile import sdc
 from growth import gv
 import webbrowser
 
@@ -16,7 +17,7 @@ def main():
     st.title('자율주행 자동차 개발 프로젝트')
     
 
-    menu = ['Home','Information','Corporations','Growth value']
+    menu = ['Home','Information','Corporations','Growth value','SDC']
     choice = st.sidebar.selectbox('Menu',menu)
 
     if choice == 'Home':
@@ -27,6 +28,8 @@ def main():
         corporation()
     if choice == 'Growth value':
         gv()
+    if choice == 'SDC':
+        sdc()
 # 자율주행에 대한 기본적인 정보제공
 
 # 자율주행을 현재 개발중인 국내회사 홈페이지 연동
