@@ -14,8 +14,11 @@ from fbprophet import Prophet
 def gv():
     st.subheader('자율주행 자동차 개발에 대한 성장가능성을 평가합니다')
     
-    st.subheader('주식을 이용한 성장가능성 판단')
-    st.write('현대자동차 자율주행 기술이 상용화된 시점(2008-01-08)부터 계산')
+    st.subheader('주식을 이용한 국내 기업 성장가능성 판단')
+    st.write('yfinance 라이브러리를 활용하여 실시간 주식데이터를 수집합니다')
+    st.write('fbprophet 라이브러리를 활용하여 2024년까지를 예측합니다')
+    st.write('현대자동차 자율주행 기술이 상용화된 시점(2008-01-08)부터 반영')
+    st.write('[현대자동차 예측 그래프]')
     today = datetime.now().date().isoformat()
     data1 = yf.Ticker('005380.KS')
     df1 = data1.history(start='2008-01-08', end = today)
@@ -39,7 +42,8 @@ def gv():
     st.pyplot(fig1)
 
 
-    st.write('카카오모빌리티 자율주행 개발이 시작된 시점부터 계산')
+    st.write('카카오모빌리티 자율주행 개발이 시작된 시점(2020-03-01)부터 반영')
+    st.write('[카카오모빌리티 예측 그래프]')
     data2 = yf.Ticker('035720.KS')
     df2 = data2.history(start='2020-03-01', end = today)
     
