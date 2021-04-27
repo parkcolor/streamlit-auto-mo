@@ -25,7 +25,7 @@ def corporation():
         url1 = 'https://motional.com/'
         st.write('- 현대자동차 협력사 : Motional')
         if st.button('홈페이지 바로가기'):
-            webbrowser.open_new_tab(url1)
+            webbrowser.open_new_tab('https://motional.com/')
     if choice == '카카오모빌리티':
         st.image('kko.png',width=None)
         st.subheader('카카오모빌리티')
@@ -36,7 +36,7 @@ def corporation():
         st.write('- 무엇보다 빅데이터 측면에선 압도적인 수준에 도달해 있기 때문에, 환경에 알맞는 서비스제공은 카카오모빌리티가 우위를 점할 것 같다')
         url2 = 'https://auto.v.daum.net/v/20200303103632878'
         if st.button('관련기사 바로보기'):
-            webbrowser.open_new_tab(url2)
+            webbrowser.open_new_tab('https://auto.v.daum.net/v/20200303103632878')
     if choice == 'a2z':
         st.image('a2z.jpg',width=None)
         st.subheader('a2z 오토노머스')
@@ -50,7 +50,7 @@ def corporation():
         st.image('ptn.png',width=None)
         url3 = 'http://www.autoa2z.co.kr/'
         if st.button('a2z 홈페이지 바로가기'):
-            webbrowser.open_new_tab(url3)
+            webbrowser.open_new_tab('http://www.autoa2z.co.kr/')
     if choice == '토르드라이브':
         st.image('토르.jpg',width=None)
         st.subheader('토르드라이브')
@@ -65,10 +65,10 @@ def corporation():
         st.video('https://youtu.be/GNnwR-lGJUU')
         url4 = 'https://www.irobotnews.com/news/articleView.html?idxno=22582'
         if st.button('해당기사 바로가기'):
-            webbrowser.open_new_tab(url4)
+            webbrowser.open_new_tab('https://www.irobotnews.com/news/articleView.html?idxno=22582')
         if st.button('토르드라이브 홈페이지 바로가기'):
             url5 = 'https://www.thordrive.ai/'
-            webbrowser.open_new_tab(url5)
+            webbrowser.open_new_tab('https://www.thordrive.ai/')
     if choice == '스트라드비전':
         st.image('스트라드비전.png',width=None)
         st.subheader('스트라드비전')
@@ -89,7 +89,7 @@ def corporation():
         st.image('control.png',width=None)
         url6 = 'https://www.control-works.co.kr/'
         if st.button('컨트롤웍스 홈페이지 바로가기'):
-            webbrowser.open_new_tab(url6)
+            webbrowser.open_new_tab('https://www.control-works.co.kr/')
     
 
 
