@@ -23,7 +23,7 @@ def corporation():
         st.write('- 현재 판매중인 모든 차량에서 최대 3단계 자율주행을 제공한다')
         st.write('- 현대자동차 자체 개발 및 협력사 개발을 통해 빠르게 성장하고 있다')
         # url1 = 'https://motional.com/'
-        link = '[Motional](https://motional.com/)'
+        link = '[홈페이지 바로가기](https://motional.com/)'
         st.write('- 현대자동차 협력사 : Motional')
         st.markdown(link,unsafe_allow_html=True)
         # if st.button('홈페이지 바로가기'):
@@ -36,9 +36,10 @@ def corporation():
         st.write('- 자율주행 차량을 통제하는 관제시스템과 이를 총괄하는 운영시스템으로 나누고, 데이터와 기술, 운영 노하우를 접목시켜 가장 안전한 서비스를 제공하는게 목적이다')
         st.write('- 주변환경을 인식하고 주행전략을 결정하여 차량을 제어하는 기술과, 수요에 맞춰 배차하고 원격으로 차량을 조정하는 서비스를 함께 개발하고 있다')
         st.write('- 무엇보다 빅데이터 측면에선 압도적인 수준에 도달해 있기 때문에, 환경에 알맞는 서비스제공은 카카오모빌리티가 우위를 점할 것 같다')
-        url2 = 'https://auto.v.daum.net/v/20200303103632878'
-        if st.button('관련기사 바로보기'):
-            webbrowser.open_new_tab('https://auto.v.daum.net/v/20200303103632878')
+        link1 = '[관련기사 바로보기](https://auto.v.daum.net/v/20200303103632878)'
+        st.markdown(link1,unsafe_allow_html=True)
+        # if st.button('관련기사 바로보기'):
+        #     webbrowser.open_new_tab('https://auto.v.daum.net/v/20200303103632878')
     if choice == 'a2z':
         st.image('a2z.jpg',width=None)
         st.subheader('a2z 오토노머스')
@@ -50,9 +51,10 @@ def corporation():
         st.video('https://youtu.be/FAnnpoHkfgw')
         st.subheader('a2z 파트너사')
         st.image('ptn.png',width=None)
-        url3 = 'http://www.autoa2z.co.kr/'
-        if st.button('a2z 홈페이지 바로가기'):
-            webbrowser.open_new_tab('http://www.autoa2z.co.kr/')
+        link3 = '[홈페이지 바로가기](http://www.autoa2z.co.kr/)'
+        st.markdown(link3,unsafe_allow_html=True)
+        # if st.button('a2z 홈페이지 바로가기'):
+        #     webbrowser.open_new_tab('http://www.autoa2z.co.kr/')
     if choice == '토르드라이브':
         st.image('토르.jpg',width=None)
         st.subheader('토르드라이브')
@@ -65,12 +67,15 @@ def corporation():
         
         st.subheader('인천공항 자율주행 전동차 도입사례')
         st.video('https://youtu.be/GNnwR-lGJUU')
-        url4 = 'https://www.irobotnews.com/news/articleView.html?idxno=22582'
-        if st.button('해당기사 바로가기'):
-            webbrowser.open_new_tab('https://www.irobotnews.com/news/articleView.html?idxno=22582')
-        if st.button('토르드라이브 홈페이지 바로가기'):
-            url5 = 'https://www.thordrive.ai/'
-            webbrowser.open_new_tab('https://www.thordrive.ai/')
+        link4 = '[해당기사 바로가기](https://www.irobotnews.com/news/articleView.html?idxno=22582)'
+        st.markdown(link4,unsafe_allow_html=True)
+        # if st.button('해당기사 바로가기'):
+        #     webbrowser.open_new_tab('https://www.irobotnews.com/news/articleView.html?idxno=22582')
+        link5 = '[홈페이지 바로가기](https://www.thordrive.ai/)'
+        st.markdown(link5,unsafe_allow_html=True)
+        # if st.button('토르드라이브 홈페이지 바로가기'):
+        #     url5 = 'https://www.thordrive.ai/'
+        #     webbrowser.open_new_tab('https://www.thordrive.ai/')
     if choice == '스트라드비전':
         st.image('스트라드비전.png',width=None)
         st.subheader('스트라드비전')
@@ -89,9 +94,10 @@ def corporation():
         st.write('- 컨트롤웍스는 자율주행 기술에 대한 소프트웨어 개발보다는 해당 기술에 필요한 하드웨어를 제작 및 공급하는 회사로 더 많이 알려져있다')
         st.write('- 라이다센서를 비롯하여 자율주행 개발에 필요한 제품들을 공급하며, 기업과의 협력 뿐만 아니라 대학교 개발지망생들과 자율주행시스템을 제작하기도 하였다')
         st.image('control.png',width=None)
-        url6 = 'https://www.control-works.co.kr/'
-        if st.button('컨트롤웍스 홈페이지 바로가기'):
-            webbrowser.open_new_tab('https://www.control-works.co.kr/')
+        link6 = '[홈페이지 바로가기](https://www.control-works.co.kr/)'
+        st.markdown(link6,unsafe_allow_html=True)
+        # if st.button('컨트롤웍스 홈페이지 바로가기'):
+        #     webbrowser.open_new_tab('https://www.control-works.co.kr/')
     
 
 
