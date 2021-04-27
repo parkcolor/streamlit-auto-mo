@@ -17,12 +17,12 @@ def main():
     st.title('자율주행 자동차 개발 프로젝트')
     
 
-    menu = ['Home','Information','Corporations','Growth value','SDC']
+    menu = ['Home','About SDC','Corporations','Growth value','SDC']
     choice = st.sidebar.selectbox('Menu',menu)
 
     if choice == 'Home':
         st.write('홈 화면입니다')
-    if choice == 'Information' :
+    if choice == 'About SDC' :
         information()
     if choice == 'Corporations' :
         corporation()
