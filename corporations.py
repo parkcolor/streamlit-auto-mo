@@ -22,10 +22,12 @@ def corporation():
         st.image('social.png',width=None)
         st.write('- 현재 판매중인 모든 차량에서 최대 3단계 자율주행을 제공한다')
         st.write('- 현대자동차 자체 개발 및 협력사 개발을 통해 빠르게 성장하고 있다')
-        url1 = 'https://motional.com/'
+        # url1 = 'https://motional.com/'
+        link = '[Motional](https://motional.com/)'
         st.write('- 현대자동차 협력사 : Motional')
-        if st.button('홈페이지 바로가기'):
-            webbrowser.open('https://motional.com/',new=1)
+        st.markdown(link,unsafe_allow_html=True)
+        # if st.button('홈페이지 바로가기'):
+        #     webbrowser.open('https://motional.com/',new=1)
     if choice == '카카오모빌리티':
         st.image('kko.png',width=None)
         st.subheader('카카오모빌리티')
