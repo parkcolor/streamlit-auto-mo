@@ -34,6 +34,7 @@ def sdc():
         st.image('yy1.png')
         st.write('입력받은 이미지를 S X S 그리드 영역으로 나누고 물체가 있을 영역에 Bounding Box를 예측하는 방식의 모델입니다.')
         st.image('yy.png')
+        st.write('동영상을 활용한 실제 모델 구동영상')
         st.video('yolo_video.mp4')
         link1 = '[홈페이지 바로가기](https://pjreddie.com/darknet/yolo/)'
         link2 = '[작동코드](https://en-percent.tistory.com/55)'
