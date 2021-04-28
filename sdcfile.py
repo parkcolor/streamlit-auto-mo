@@ -23,6 +23,7 @@ def sdc():
 
         st.write('이미지를 활용한 실제 모델 구동영상')
         st.video('ssd.mp4')
+        st.write('동영상을 활용한 실제 모델 구동영상')
         st.video('ssd_result.mp4')
         link = '[작동코드](https://en-percent.tistory.com/54)'
         st.markdown(link,unsafe_allow_html=True)
