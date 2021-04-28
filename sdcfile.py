@@ -39,6 +39,7 @@ def sdc():
         link1 = '[홈페이지 바로가기](https://pjreddie.com/darknet/yolo/)'
         link2 = '[작동코드](https://en-percent.tistory.com/55)'
         st.markdown(link1,unsafe_allow_html=True)
+        st.markdown(link2,unsafe_allow_html=True)
         st.write('암호 : 1234')
     
     if choice == 'Semantic Segmentation':
