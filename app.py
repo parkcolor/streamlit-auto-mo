@@ -21,7 +21,9 @@ def main():
     choice = st.sidebar.selectbox('Menu',menu)
 
     if choice == 'Home':
-        st.write('홈 화면입니다')
+        st.header('라이다 및 영상인식기반 모빌리티 자율주행 솔루션 실무과정')
+        st.write('훈련기간 : 2021-01-11 ~ 2021-08-02')
+        st.image('learning.JPG')
     if choice == 'About SDC' :
         information()
     if choice == 'Corporations' :
