@@ -23,6 +23,7 @@ def sdc():
 
         st.write('이미지를 활용한 실제 모델 구동영상')
         st.video('ssd.mp4')
+        st.video('ssd_video.mp4')
         link = '[작동코드](https://en-percent.tistory.com/54)'
         st.markdown(link,unsafe_allow_html=True)
         st.write('암호 : 1234')
@@ -34,7 +35,7 @@ def sdc():
         st.image('yy.png')
         st.video('yolo_video.mp4')
         link1 = '[홈페이지 바로가기](https://pjreddie.com/darknet/yolo/)'
-        link = '[작동코드](https://en-percent.tistory.com/55)'
+        link2 = '[작동코드](https://en-percent.tistory.com/55)'
         st.markdown(link1,unsafe_allow_html=True)
         st.write('암호 : 1234')
     
