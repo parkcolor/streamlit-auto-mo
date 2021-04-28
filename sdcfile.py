@@ -46,6 +46,6 @@ def sdc():
         st.write('Semantic Segmentation은 컴퓨터비전 분야에서 가장 핵심적인 기술 중 하나입니다')
         st.write('input받은 source에 대해 적절한 분류수준을 넘어서 그 장면을 완벽하게 이해시키는 높은수준의 기술입니다')
         st.image('ss2.jpg')
-        st.write('CNN을 활용한 기본적인 모델을 바탕으로 모델을 구현하였습니다')
+        st.write('CNN을 활용한 기본적인 모델(Enet)을 바탕으로 구현하였습니다')
         st.write('동영상을 활용한 실제 모델 구동영상')
         st.video('semantic.mp4')
