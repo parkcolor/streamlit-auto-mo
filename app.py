@@ -21,7 +21,12 @@ def main():
     choice = st.sidebar.selectbox('Menu',menu)
 
     if choice == 'Home':
-        st.write('홈 화면입니다.')
+        st.header('본 프로젝트는 자율주행자동차(SDC)개발 프로젝트 입니다.')
+        st.subheader('[섹션 설명]')
+        st.write('About SDC : 자율주행 기술에 대한 정보를 볼 수 있습니다')
+        st.write('Corporations : 자율주행 기술을 개발하는 국내기업을 소개합니다')
+        st.write('Growth value : 국내 기업에 대한 성장가능성 예측데이터를 볼 수 있습니다')
+        st.write('SDC : SDC에 탑재되는 다양한 컴퓨터비전 기술을 볼 수 있습니다.')
     if choice == 'About SDC' :
         information()
     if choice == 'Corporations' :
